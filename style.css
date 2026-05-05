@@ -1,0 +1,25 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background: linear-gradient(135deg, #f0f9f5 0%, #e6f4ed 100%);
+    min-height: 100vh;
+}
+
+.font-display { font-family: 'Fraunces', serif; }
+
+.hidden { display: none !important; }
+
+/* Destaque para o botão de intensidade selecionado */
+.intensidade-active {
+    background-color: #065f46 !important;
+    color: white !important;
+    border-color: #065f46 !important;
+}
+
+.fila-item {
+    transition: all 0.2s;
+}
+
+.fila-item:hover {
+    transform: translateX(5px);
+    background-color: #f1f5f9;
+}
